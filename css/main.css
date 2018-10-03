@@ -109,9 +109,19 @@ textarea {
     font-family: "Montserrat", sans-serif;
 }
 
+.flex {
+    display: flex;
+}
+
 /* ================================start commun class========================= */
 
 /* ================================start header========================== */
+.contHeadHau {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+}
 .headerHaut {
     display: flex;
     justify-content: center;
@@ -143,7 +153,6 @@ textarea {
     display: flex;
     justify-content: flex-end;
     font-size: 0.8em;
-
 }
 label {
     padding-top: 3%;
@@ -151,7 +160,7 @@ label {
     color: rgb(97, 89, 89);
 }
 select {
-    width: 31%;
+    width: 30%;
     height: 4vh;
     margin-top: 1.5%;
 }
@@ -161,7 +170,7 @@ select {
     height: 3vh;
     text-align: center;
     text-decoration: none;
-    margin-top: 2.2%;
+    margin-top: 2%;
     margin-left: 1%;
     color: white;
 }
@@ -199,16 +208,36 @@ nav a:hover {
 }
 /* ================================end header========================== */
 /* ================================start main========================== */
-.paraUN {
+.containerPara {
     background-image: url("http://www.oceaclub.com/slides/shbam.jpg");
+    height: 150vh;
+}
+.backgImg {
     background-repeat: no-repeat;
-    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.paraUN {
+    background-color: rgb(0, 0, 0);
+    opacity: 0.7;
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #para {
-    background-color: rgb(0, 0, 0);
-    opacity: 0.5;
+    width: 90%;
+    height: 20vh;
     color: white;
-    padding-top: 40.4%;
+}
+#vide {
+    float: right;
+    padding-right: 2%;
+}
+.ocea, .horaireColor {
+    color: rgb(241, 24, 151);
 }
 .containerSport {
     background-color: rgb(237, 0, 140);
@@ -229,7 +258,7 @@ nav a:hover {
     width: 70%;
     display: flex;
     justify-content: space-around;
-    margin-left: 15%;
+    margin: auto;
 }
 .containerSport i {
     font-size: 4em; 
@@ -249,26 +278,89 @@ nav a:hover {
     height: 7vh;
     text-align: center;
 }
-.notreContact {
-    background-color: antiquewhite;
+.notreContrat {
     width: 100%;
-    height: 60vh;
-    display: block;
+    height: 30vh;
     justify-content: center;
-    margin-left: 20%;
+    align-items: center;
 }
 .hETp {
-    background-color: aqua;
     width: 75%;
+    padding-bottom: 2%;
 }
 .hETp h3 {
     font-size: 18px;
 }
 .hETp p {
-    font-size: 15px;
+    font-size: 14px;
+    color: rgb(97, 93, 93);
 }
-.hETp p span {
-    font-weight: bold;
+.video {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.containerPlan {
+    background-color: rgb(237, 0, 140);
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+    color: white;
+}
+.containerPlan p {
+    font-size: 13px;
+}
+.blocPlan {
+    width: 85%;
+    height: 35vh;
+    display: flex;
+    justify-content: space-around;
+}
+.blocPlan h4, .blocPlan h3 {
+    text-align: center;
+}
+.blocPlan h3 {
+    background-color: white;
+    width: 60%;
+    height: 4vh;
+    font-size: 0.8em;
+    font-weight: normal; 
+    margin-left: 15%;
+    padding-top: 1vh;
+}
+.planning, .cours, .tarif, .découverte {
+    background-color: rgb(196, 14, 120);
+    width: 20%;
+    height: 20vh;
+    display: block;
+    justify-content: center;
+}
+.containerHoraire {
+    width: 70%;
+    justify-content: space-around;
+}
+.horaire, .syrendre {
+    width: 35%;
+    height: 25vh;
+}
+.syrendre {
+    width: 20%;
+}
+.esth {
+    background-image: url("http://www.oceaclub.com/slides/esth.jpg");
+    height: 120vh;
+}
+.esthetique {
+    background-color: rgb(175, 12, 140);
+    padding-top: 5vh;
+    padding-bottom: 3vh;
+}
+.contEsth {
+    background-color: rgb(175, 12, 140);
+
 }
 
 /* ================================end main========================== */
