@@ -299,15 +299,14 @@ nav a:hover {
     width: 100%;
     display: flex;
     justify-content: center;
+    margin-bottom: 3%;
 }
 .containerPlan {
     background-color: rgb(237, 0, 140);
     width: 100%;
     height: 55vh;
-    display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 3%;
     color: white;
 }
 .containerPlan p {
@@ -316,7 +315,6 @@ nav a:hover {
 .blocPlan {
     width: 85%;
     height: 35vh;
-    display: flex;
     justify-content: space-around;
 }
 .blocPlan h4, .blocPlan h3 {
@@ -331,7 +329,7 @@ nav a:hover {
     margin-left: 15%;
     padding-top: 1vh;
 }
-.planning, .cours, .tarif, .découverte {
+.planning {
     background-color: rgb(196, 14, 120);
     width: 20%;
     height: 20vh;
@@ -353,39 +351,72 @@ nav a:hover {
     background-image: url("http://www.oceaclub.com/slides/esth.jpg");
     height: 120vh;
 }
-.esthetique {
+.backgEsth {
     background-color: rgb(175, 12, 140);
+
+}
+.esthetique, .sun {
     padding-top: 5vh;
     padding-bottom: 3vh;
 }
-.contEsth {
+.beauté {
+    width: 20%;
+    height: 35vh;
+    text-align: center;
+    color: white;
+    font-size: 1em;
+}
+.beauté p {
+    text-align: left;
+}    
+.beauté span {
+    background-color: white;
+    padding: 3% 4%;
+    font-size: 0.9em;
+}
+.blocBe {
+    width: 90%;
+    height: 45vh;
+    justify-content: space-around;
+    margin-left: 5%;
+}
+.bigContainer {
     background-color: rgb(175, 12, 140);
+}
+.backSun {
+    background-image: url("http://www.oceaclub.com/slides/sun.jpg");
+    height: 120vh;
+}
+.sun {
+    background-color: rgb(255, 128, 0);
 
 }
 
 /* ================================end main========================== */
 /* ================================start footer========================== */
-
-
+footer * {
+    background-color: rgb(83, 80, 80);
+    /* width: 100%; */
+    /* height: 50vh; */
+    color: white;
+    /* display: flex;
+    justify-content: center; */
+}
+footer h5 {
+    font-size: 1em;
+}
+footer p, footer ul {
+    font-size: 0.8em;
+}
+.oSport ul li a {
+    list-style-type: none;
+}
+.foo {
+    background-color: red;
+}
 
 
 /* ================================end footer========================== */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ==========================================================================
    Helper classes
    ========================================================================== */
