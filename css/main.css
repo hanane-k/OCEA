@@ -132,16 +132,16 @@ textarea {
     font-size: 13px;
 }
 
-.beauté > h4, .machine > h4 {
-    font-size: O.5em;
+.beauté > h5, .machine > h5 {
+    font-size: 13px;
 }
 
 .beauté span, .machine span, .planning span {
     background-color: white;
     padding: 3% 4%;
-    margin-left: 20%;
-    margin-right: 20%;
     font-size: 0.9em;
+    width: 50%;
+    align-self: center;
 }
 
 .beauté h5, .planning h5, .machine h5 {
@@ -149,6 +149,17 @@ textarea {
     padding: 6%;
     margin: 0%;
 }
+
+.asideG, .asideD {
+    width: 40%;
+    height: 5vh;
+    font-size: 0.8em;
+}
+
+.containerPlan p, .parag, .beauté h5, .planning h5, .machine h5 {
+    font-size: 13px;
+}
+
 /* ================================end commun class========================= */
 
 /* ================================start header========================== */
@@ -159,15 +170,8 @@ textarea {
 }
 
 .headerHaut {
-    display: flex;
     justify-content: center;
     border-bottom: 1px solid rgb(199, 199, 199);
-}
-
-.asideG {
-    width: 40%;
-    height: 5vh;
-    font-size: 14px;
 }
 
 .asideG ul {
@@ -175,10 +179,10 @@ textarea {
     width: 20%;
     height: 5vh;
     margin-top: 0%;
-    display: flex;
     align-items: center;
     justify-content: space-around;
 }
+
 .asideG ul li {
     display: inline;
 }
@@ -188,11 +192,7 @@ textarea {
 }
 
 .asideD {
-    width: 40%;
-    height: 5vh;
-    display: flex;
     justify-content: flex-end;
-    font-size: 0.8em;
 }
 
 label {
@@ -226,14 +226,13 @@ select {
 nav {
     width: 80%;
     height: 20vh;
-    display: flex;
     justify-content: space-between;
     margin-left: 10%;
 }
+
 .nav {
     width: 60%;
     height: 2Ovh;
-    display: flex;
     justify-content: space-around;
     font-size: 0.9em;
     list-style: none;
@@ -249,7 +248,7 @@ nav a:hover {
     color: rgb(237, 0, 140);;
 }
 
-.tré {
+.border {
     border-right: 1px solid gray;
     padding-right: 3%;
 }
@@ -361,7 +360,6 @@ nav a:hover {
 }
 .video {
     width: 100%;
-    display: flex;
     justify-content: center;
     margin-bottom: 3%;
 }
@@ -381,17 +379,9 @@ iframe {
     color: white;
 }
 
-.containerPlan p, .parag {
-    font-size: 13px;
-}
-
 .blocPlan {
     width: 85%;
     justify-content: space-around;
-}
-
-.blocPlan h4, .blocPlan h3 {
-    text-align: center;
 }
 
 .containerHoraire {
@@ -439,7 +429,6 @@ iframe {
 
 .bigContainer {
     background-color: rgb(175, 12, 140);
-    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
